@@ -74,7 +74,7 @@ body {
  .nav_bottuns{
     display: flex;
     gap: 1rem;
-    margin-left: 3rem;
+    margin-left: 12rem;
     justify-content: center;
     align-items: center;
     font-size: 13px;
@@ -88,30 +88,40 @@ body {
     border-radius: 8px;
     border:1px solid #BDBDBD;
     cursor: pointer;
-    
-
- }
+    transition: all 1s ;
+    -webkit-transition: all 1s ;
+    -moz-transition: all 1s ;
+    -ms-transition: all 1s ;
+    -o-transition: all 1s ;
+}
  .red_bottuns{
-    background-color: #F06292;
+    background-color: rgb(225, 33, 121);
     color: white;
     height: 40px;
     width: 130px;
     border-radius: 8px;
     border: none;
     cursor: pointer;
+    transition: all 2s ;
+    -webkit-transition: all 2s ;
+    -moz-transition: all 2s ;
+    -ms-transition: all 2s ;
+    -o-transition: all 2s ;
+}
+ .white_bottuns:hover{ color:#F06292 ;
+  border-color:#F06292 ;
+
  }
+ .red_bottuns :hover {
+ background-color: rgb(225, 33, 121,5);
+  opacity: 0.6;
+
+ }
+
+
+
  
- .gray_bottuns_inside{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    width: 85px;
-    height: 40px;
-    background-color: #F5F5F5;
-    border-radius: 8px;
-    border: none;
-    cursor: pointer;
- }
+ 
 
 
 
